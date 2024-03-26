@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: 'Archivo', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../images/background.png);
+    max-width: 1917px;
+    max-height: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 1216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.header .logo a img {
+    width: 166px;
+    height: auto;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links ul a li {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    border: 1px solid #FFF;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.main {
+    width: 1216px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.description-container .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.description-container .title h2 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.description-container .title h1 {
+    width: 435px;
+    color: #FFF;
+    font-family: 'Andada Pro', serif;
+    font-size: 6.4rem;
+    font-weight: 800;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+.description-container p {
+    width: 500px;
+    color: #FFF;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.main img {
+    width: 516px;
+    height: auto;
+}
+
+.btns {
+    display: flex;
+    gap: 32px;
+}
+
+.btns .btn {
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.play {
+    background-color: #F1A5B1;
+}
+
+.trailer {
+    border: 2px solid #F1A5B1;
+}
+
+.btn.play .btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn.play .btn-content p {
+    color: #0B0A0A;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn.play .btn-content img {
+    width: 24px;
+    height: 24px ;
+}
+
+.btn.trailer p {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
