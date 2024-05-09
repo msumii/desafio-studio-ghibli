@@ -1,9 +1,9 @@
-# Desafio 05 - Blog Codelândia 
+# Desafio Studio Ghibli
 
 Quinto desafio da comunidade Codelândia
 
 ## Índice
-- [Desafio 05 - Blog Codelândia](#desafio-05---blog-codelândia)
+- [Desafio Studio Ghibli](#desafio-studio-ghibli)
   - [Índice](#índice)
   - [Visão Geral](#visão-geral)
     - [Screenshots](#screenshots)
